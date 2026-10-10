@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Tentang</title>
+    <title>Tentang Inayah</title>
 </head>
 <body>
     <h1>Halaman Tentang</h1>
