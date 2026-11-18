@@ -26,7 +26,7 @@
     @forelse ($jurusans as $jurusan)
         <tr>
     <td>{{ $loop->iteration }}</td>
-    <td>{{ $jurusan->code }}</td>
+    <td>{{ $jurusan->kode }}</td>
     <td>{{ $jurusan->nama }}</td>
 </tr>
 @empty

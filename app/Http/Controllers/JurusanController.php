@@ -21,12 +21,12 @@ return view('jurusan.create');
 public function store(Request $request)
 {
 $request->validate([
-'code' => 'required|string|max:20|unique:jurusans,code',
+'kode' => 'required|string|max:20|unique:jurusans,kode',
 'nama' => 'required|string|max:100',
 ]);
 
 Jurusan::create([
-'code' => $request->code,
+'kode' => $request->kode,
 'nama' => $request->nama,
 ]);
 

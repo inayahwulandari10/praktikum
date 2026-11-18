@@ -11,8 +11,8 @@
     @csrf
     <div>
         <label>Kode Jurusan</label>
-        <input type="text" name="code"
-            value="{{ old('code') }}">
+        <input type="text" name="kode"
+            value="{{ old('kode') }}">
         @error('kode')
             <p style="color:red">{{ $message }}</p>
         @enderror

@@ -88,3 +88,13 @@ Route::post('/jurusan', [JurusanController::class, 'store'])
     ->name('jurusan.store');
 
 Route::get('/jurusan/{id}', [JurusanController::class, 'show']);
+
+
+
+
+
+use App\Http\Controllers\MataKuliahController;
+
+Route::resource('mata-kuliah', MataKuliahController::class)
+    ->only(['index', 'create', 'store', 'show']);
+
